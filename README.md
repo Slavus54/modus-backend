@@ -25,4 +25,4 @@ Microservices built and interacted with web server:
 
 ### Demo URL  
 
-Look on https://658fcf952414b2450923f7e8--modus-vivendi.netlify.app  
+https://6590f08f929bead91685f745--modus-vivendi.netlify.app  
