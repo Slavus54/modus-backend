@@ -214,10 +214,6 @@ const resolvers = {
     },
     Mutation: {
         register: async (_, {username, security_code, telegram_tag, sex, region, cords, main_photo}) => {
-            await Profiles.deleteMany()
-            await Lectures.deleteMany()
-            await Workshops.deleteMany()
-            await Miracles.deleteMany()
             const profile = await Profiles.findOne({username}) 
             let drop_object = {account_id: '', username, field: ''}
 
